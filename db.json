@@ -1,16 +1,147 @@
 {
-  "posts":[
+  "provider": {
+    "username": "testprovider",
+    "name": "Test Provider",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  "student": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "sid": "2345",
+      "plan": "652",
+      "memberId": "999999652",
+      "firstname": "Jim",
+      "lastname": "Student",
+      "dob": "01011970",
+      "email": "cindi.macdonald@acadiau.ca",
+      "clinicName": "Test Sport Therapy",
+      "officeId": "1234567",
+      "providerNumber": "P1423166194",
+      "address": "123 Somewhere Else",
+      "city": "To",
+      "province": "ON",
+      "postalCode": "M6M 3M4",
+      "phoneNumber": "1234567890",
+      "clinicemail": "ask.nl@pbas.ca",
+      "comments": "",
+      "dependants": [
+        {
+          "name": "JANE",
+          "relationship": "Spouse",
+          "dob": "19700101"
+        },
+        {
+          "name": "JOE",
+          "relationship": "Child",
+          "dob": "19990101"
+        }
+      ]
+    },
+    {
+      "sid": "6789",
+      "plan": "655",
+      "memberId": "999999653",
+      "firstname": "Alan",
+      "lastname": "Smith",
+      "dob": "01011970",
+      "email": "alan.smith@acadiau.ca",
+      "clinicName": "Test Sport Therapy",
+      "officeId": "1234567",
+      "providerNumber": "P1423166194",
+      "address": "123 Somewhere Else",
+      "city": "To",
+      "province": "ON",
+      "postalCode": "M6M 3M4",
+      "phoneNumber": "1234567890",
+      "clinicemail": "ask.nl@pbas.ca",
+      "comments": "",
+      "dependants": [
+        {
+          "name": "Evelyn",
+          "relationship": "Spouse",
+          "dob": "19700101"
+        },
+        {
+          "name": "Mike",
+          "relationship": "Child",
+          "dob": "20000202"
+        }
+      ]
     }
   ],
-  "comments" : [
+  "schools": [
+    "Acadia Students Union",
+    "Cape Breton University Students Union",
+    "Holland Colledge Student Union",
+    "Mount Alison Students Union"
+  ],
+  "profile": {
+    "registrationNumber": "23422345",
+    "providerNumber": "P1423166194",
+    "officeId": "34323",
+    "clinicName": "Test Clinic",
+    "phoneNumber": "416-234-5666",
+    "phoneExtension": null,
+    "address": "40 Somewhere Street",
+    "city": "Paradise",
+    "province": "Ontario",
+    "postalCode": "L4S2L3",
+    "coverages": ["Accupuncturist", "Massage Therapist", "Eye Lenses"],
+    "primaryContactFirstname": "Test",
+    "primaryContactLastname": "Provider",
+    "institutionNumber": "005",
+    "transitNumber": "512",
+    "accountType": "Chequing",
+    "accountNumber": "32434215",
+    "verifyDirectDeposit": false,
+    "verifyProviderRegistration": false,
+    "directDepositEmail": "elogon@gmail.com",
+    "username": "testprovider",
+    "email": "povider@email.com",
+    "password": null,
+    "newPassword": null,
+    "confirmPassword": null,
+    "file": null,
+    "securityQuestion": "favorite pet?",
+    "securityAnswer": "cat",
+    "timezone": "America/Toronto Mon Sep 27 2021 20:20:59 GMT-0400 (Eastern Daylight Time)"
+  },
+  "email": [],
+  "claim": {
+    "expenses": [
+      {
+        "patientName": "JANE",
+        "date": "2021-09-28",
+        "coverageType": "Massage Therapist",
+        "amount": "22"
+      }
+    ],
+    "studentId": "2345",
+    "firstname": "Jim",
+    "plan": "652",
+    "dob": "01011970",
+    "lastname": "Student",
+    "memberId": "999999652",
+    "email": "cindi.macdonald@acadiau.ca"
+  },
+  "claims": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "expenses": [
+        {
+          "patientName": "JIM",
+          "date": "2021-09-28",
+          "coverageType": "Accupuncturist",
+          "amount": "34.45"
+        }
+      ],
+      "student_id": "2345",
+      "firstname": "Jim",
+      "plan": "652",
+      "dob": "01011970",
+      "lastname": "Student",
+      "member_id": "999999652",
+      "email": "cindi.macdonald@acadiau.ca",
+      "submission_id": "CPX-P652-9220211930",
+      "id": 1
     }
   ]
 }
